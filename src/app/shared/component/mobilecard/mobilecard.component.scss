@@ -1,0 +1,54 @@
+.imgcontainer{
+    height: 200px;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .noimgmsg{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ededed;
+    }
+  }
+  
+  .notavail{
+    filter: blur(0.5px) grayscale(1);
+  }
+  
+  .pricess{
+    text-decoration: line-through;
+  }
+  
+.nostock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(2px); /* Blur effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // z-index: 1000; /* Ensure it is on top */ 
+  }
+  
+  .card-body {
+    background: white; /* Background for the message */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .col-md-7 .details{
+    display: inline-flex;
+    text-decoration: none;
+    white-space: nowrap
+    //display: flex;
+    // justify-content: center;
+    // align-items: center;
+  }
